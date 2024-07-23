@@ -12,7 +12,7 @@
 	<parent>
 		<groupId>org.t-io</groupId>
 		<artifactId>tio-parent</artifactId>
-		<version>3.8.3.v20220902-RELEASE</version>
+		<version>3.8.5.v20230901-RELEASE</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
@@ -67,6 +67,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven-jar-plugin.version}</version>
 				<configuration>
 					<archive>
 						<!-- 生成的jar中，不要包含pom.xml和pom.properties这两个文件 -->
